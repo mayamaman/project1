@@ -1,0 +1,59 @@
+//indexof
+let text= 'hello world';
+let result= text.indexOf('world');
+console.log (result)
+
+//trim
+let text1= "   hey you!   ";
+let resul1= text1.trim ();
+console.log (resul1);
+
+//includes
+let text2= "hello world";
+let resul2 = text2.includes ('hello');
+console.log (resul2);
+
+//replaceAll
+let text3= "mango bannana and melon bannana and mango";
+let resul3=  text3.replaceAll ( 'mango', 'appel');
+console.log (resul3);
+
+//pop
+const animals= ['shark','zebra','snake','cat','dog'];
+animals.pop ();
+console.log (animals);
+
+//shift
+const animals1= ['shark','zebra','snake','cat','dog'];
+animals1.shift();
+console.log (animals1);
+
+//unshift
+const students= ['yael','noam','harel','shir','maya'];
+students.unshift ('michael','matan');
+console.log (students);
+
+//slice
+const food = ['mango','bannana','appel','lemon','orange'];
+const food2 = food.slice (1,3);
+console.log (food2);
+
+//splice
+const firstName= ['yael','noam','harel','shir','maya']
+const firstName4= firstName.splice (1,3);
+console.log (firstName4)
+
+//join
+const names = [' maya ',' matan ',' michael '];
+const text4= names.join ('and');
+console.log (text4)
+
+
+
+
+
+
+
+
+
+70
